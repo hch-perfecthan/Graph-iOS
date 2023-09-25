@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50147ABC24D158720056DA65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147ABB24D158720056DA65 /* AppDelegate.swift */; };
+		50147ABE24D158720056DA65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147ABD24D158720056DA65 /* SceneDelegate.swift */; };
+		50147AC024D158720056DA65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147ABF24D158720056DA65 /* ViewController.swift */; };
+		50147AC324D158720056DA65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50147AC124D158720056DA65 /* Main.storyboard */; };
+		50147AC524D158740056DA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50147AC424D158740056DA65 /* Assets.xcassets */; };
+		50147AC824D158740056DA65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50147AC624D158740056DA65 /* LaunchScreen.storyboard */; };
+		50147AD724D158C30056DA65 /* CSStickyHeaderFlowLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 50147AD424D158C30056DA65 /* CSStickyHeaderFlowLayoutAttributes.m */; };
+		50147AD824D158C30056DA65 /* CSStickyHeaderFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 50147AD624D158C30056DA65 /* CSStickyHeaderFlowLayout.m */; };
+		50147AE724D158CA0056DA65 /* CSStickyHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147ADE24D158C90056DA65 /* CSStickyHeaderController.swift */; };
+		50147AE824D158CA0056DA65 /* CollectionParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147AE024D158C90056DA65 /* CollectionParallaxHeader.swift */; };
+		50147AE924D158CA0056DA65 /* CollectionViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147AE124D158C90056DA65 /* CollectionViewSectionHeader.swift */; };
+		50147AEA24D158CA0056DA65 /* CollectionParallaxHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50147AE224D158C90056DA65 /* CollectionParallaxHeader.xib */; };
+		50147AEB24D158CA0056DA65 /* CollectionViewSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50147AE324D158C90056DA65 /* CollectionViewSectionHeader.xib */; };
+		50147AEC24D158CA0056DA65 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147AE424D158C90056DA65 /* CollectionViewCell.swift */; };
+		50147AED24D158CA0056DA65 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50147AE524D158C90056DA65 /* CollectionViewCell.xib */; };
+		50147AEE24D158CA0056DA65 /* CSStickyHeaderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50147AE624D158C90056DA65 /* CSStickyHeaderController.xib */; };
+		50147AF424D159D60056DA65 /* ObjectC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50147AF324D159D60056DA65 /* ObjectC.m */; };
+		50147B0224D15C3F0056DA65 /* ScrollableStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147AF524D15C3F0056DA65 /* ScrollableStackView.swift */; };
+		50147B0324D15C3F0056DA65 /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147AF724D15C3F0056DA65 /* ParallaxHeaderMode.swift */; };
+		50147B0424D15C3F0056DA65 /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147AF924D15C3F0056DA65 /* UIScrollView+ParallaxHeader.swift */; };
+		50147B0524D15C3F0056DA65 /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147AFA24D15C3F0056DA65 /* ParallaxHeader.swift */; };
+		50147B0624D15C3F0056DA65 /* SwiftScrollViewsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147AFC24D15C3F0056DA65 /* SwiftScrollViewsExtensions.swift */; };
+		50147B0724D15C3F0056DA65 /* SwiftTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147AFD24D15C3F0056DA65 /* SwiftTableView.swift */; };
+		50147B0824D15C3F0056DA65 /* SwiftScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147AFE24D15C3F0056DA65 /* SwiftScrollViewDelegate.swift */; };
+		50147B0924D15C3F0056DA65 /* SwiftScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147AFF24D15C3F0056DA65 /* SwiftScrollView.swift */; };
+		50147B0A24D15C3F0056DA65 /* SwiftCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147B0024D15C3F0056DA65 /* SwiftCollectionView.swift */; };
+		50147B0B24D15C3F0056DA65 /* SwiftScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147B0124D15C3F0056DA65 /* SwiftScrollViews.swift */; };
+		50147B0F24D15DEA0056DA65 /* success-baby.png in Resources */ = {isa = PBXBuildFile; fileRef = 50147B0E24D15DEA0056DA65 /* success-baby.png */; };
+		50147B1324D1630E0056DA65 /* ParallaxHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147B1124D1630E0056DA65 /* ParallaxHeaderController.swift */; };
+		50147B1424D1630E0056DA65 /* ParallaxHeaderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50147B1224D1630E0056DA65 /* ParallaxHeaderController.xib */; };
+		50147B1824D187860056DA65 /* ScrollableBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147B1724D187860056DA65 /* ScrollableBottomSheetViewController.swift */; };
+		50147B1A24D187B60056DA65 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147B1924D187B60056DA65 /* BaseViewController.swift */; };
+		50147B1E24D188590056DA65 /* BottomSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147B1C24D188590056DA65 /* BottomSheetController.swift */; };
+		50147B1F24D188590056DA65 /* BottomSheetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50147B1D24D188590056DA65 /* BottomSheetController.xib */; };
+		50147B2224D25C560056DA65 /* ScrollableStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50147B2024D25C560056DA65 /* ScrollableStackViewController.swift */; };
+		5038678424F508F8000C0D9F /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038678224F508F8000C0D9F /* UIView+Constraints.swift */; };
+		5038678524F508F8000C0D9F /* UIViewController+Children.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038678324F508F8000C0D9F /* UIViewController+Children.swift */; };
+		5038678824F51073000C0D9F /* OverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038678624F51073000C0D9F /* OverlayViewController.swift */; };
+		5038678924F51073000C0D9F /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5038678724F51073000C0D9F /* OverlayViewController.xib */; };
+		5038678C24F511EF000C0D9F /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038678A24F511EF000C0D9F /* ContentViewController.swift */; };
+		5038678D24F511EF000C0D9F /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5038678B24F511EF000C0D9F /* ContentViewController.xib */; };
+		5038679024F51201000C0D9F /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038678E24F51201000C0D9F /* BottomViewController.swift */; };
+		5038679124F51201000C0D9F /* BottomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5038678F24F51201000C0D9F /* BottomViewController.xib */; };
+		E1E1EA637AD3E5AC9A33B2A9 /* Pods_StickyHeader_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D832F601C832637509C82A97 /* Pods_StickyHeader_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50147AB824D158720056DA65 /* StickyHeader-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StickyHeader-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50147ABB24D158720056DA65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50147ABD24D158720056DA65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50147ABF24D158720056DA65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50147AC224D158720056DA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50147AC424D158740056DA65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50147AC724D158740056DA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50147AC924D158740056DA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50147ACF24D1588D0056DA65 /* StickyHeader-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StickyHeader-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		50147AD324D158C30056DA65 /* CSStickyHeaderFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStickyHeaderFlowLayout.h; sourceTree = "<group>"; };
+		50147AD424D158C30056DA65 /* CSStickyHeaderFlowLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSStickyHeaderFlowLayoutAttributes.m; sourceTree = "<group>"; };
+		50147AD524D158C30056DA65 /* CSStickyHeaderFlowLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStickyHeaderFlowLayoutAttributes.h; sourceTree = "<group>"; };
+		50147AD624D158C30056DA65 /* CSStickyHeaderFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSStickyHeaderFlowLayout.m; sourceTree = "<group>"; };
+		50147ADE24D158C90056DA65 /* CSStickyHeaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSStickyHeaderController.swift; sourceTree = "<group>"; };
+		50147AE024D158C90056DA65 /* CollectionParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionParallaxHeader.swift; sourceTree = "<group>"; };
+		50147AE124D158C90056DA65 /* CollectionViewSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewSectionHeader.swift; sourceTree = "<group>"; };
+		50147AE224D158C90056DA65 /* CollectionParallaxHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionParallaxHeader.xib; sourceTree = "<group>"; };
+		50147AE324D158C90056DA65 /* CollectionViewSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewSectionHeader.xib; sourceTree = "<group>"; };
+		50147AE424D158C90056DA65 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		50147AE524D158C90056DA65 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		50147AE624D158C90056DA65 /* CSStickyHeaderController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSStickyHeaderController.xib; sourceTree = "<group>"; };
+		50147AF224D159D60056DA65 /* ObjectC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectC.h; sourceTree = "<group>"; };
+		50147AF324D159D60056DA65 /* ObjectC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectC.m; sourceTree = "<group>"; };
+		50147AF524D15C3F0056DA65 /* ScrollableStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableStackView.swift; sourceTree = "<group>"; };
+		50147AF724D15C3F0056DA65 /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		50147AF824D15C3F0056DA65 /* ParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxHeader.h; sourceTree = "<group>"; };
+		50147AF924D15C3F0056DA65 /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
+		50147AFA24D15C3F0056DA65 /* ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
+		50147AFC24D15C3F0056DA65 /* SwiftScrollViewsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftScrollViewsExtensions.swift; sourceTree = "<group>"; };
+		50147AFD24D15C3F0056DA65 /* SwiftTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTableView.swift; sourceTree = "<group>"; };
+		50147AFE24D15C3F0056DA65 /* SwiftScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftScrollViewDelegate.swift; sourceTree = "<group>"; };
+		50147AFF24D15C3F0056DA65 /* SwiftScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftScrollView.swift; sourceTree = "<group>"; };
+		50147B0024D15C3F0056DA65 /* SwiftCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCollectionView.swift; sourceTree = "<group>"; };
+		50147B0124D15C3F0056DA65 /* SwiftScrollViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftScrollViews.swift; sourceTree = "<group>"; };
+		50147B0E24D15DEA0056DA65 /* success-baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success-baby.png"; sourceTree = "<group>"; };
+		50147B1124D1630E0056DA65 /* ParallaxHeaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderController.swift; sourceTree = "<group>"; };
+		50147B1224D1630E0056DA65 /* ParallaxHeaderController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParallaxHeaderController.xib; sourceTree = "<group>"; };
+		50147B1724D187860056DA65 /* ScrollableBottomSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableBottomSheetViewController.swift; sourceTree = "<group>"; };
+		50147B1924D187B60056DA65 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		50147B1C24D188590056DA65 /* BottomSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetController.swift; sourceTree = "<group>"; };
+		50147B1D24D188590056DA65 /* BottomSheetController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomSheetController.xib; sourceTree = "<group>"; };
+		50147B2024D25C560056DA65 /* ScrollableStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableStackViewController.swift; sourceTree = "<group>"; };
+		5038678224F508F8000C0D9F /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		5038678324F508F8000C0D9F /* UIViewController+Children.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Children.swift"; sourceTree = "<group>"; };
+		5038678624F51073000C0D9F /* OverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayViewController.swift; sourceTree = "<group>"; };
+		5038678724F51073000C0D9F /* OverlayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverlayViewController.xib; sourceTree = "<group>"; };
+		5038678A24F511EF000C0D9F /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		5038678B24F511EF000C0D9F /* ContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		5038678E24F51201000C0D9F /* BottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
+		5038678F24F51201000C0D9F /* BottomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomViewController.xib; sourceTree = "<group>"; };
+		D832F601C832637509C82A97 /* Pods_StickyHeader_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StickyHeader_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB108342E570F9FBB7AE29B /* Pods-StickyHeader-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickyHeader-iOS.debug.xcconfig"; path = "Target Support Files/Pods-StickyHeader-iOS/Pods-StickyHeader-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F6CE8080C846298CBD8FA92C /* Pods-StickyHeader-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickyHeader-iOS.release.xcconfig"; path = "Target Support Files/Pods-StickyHeader-iOS/Pods-StickyHeader-iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50147AB524D158720056DA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E1EA637AD3E5AC9A33B2A9 /* Pods_StickyHeader_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50147AAF24D158720056DA65 = {
+			isa = PBXGroup;
+			children = (
+				50147ABA24D158720056DA65 /* StickyHeader-iOS */,
+				50147AB924D158720056DA65 /* Products */,
+				6D6BAACBCF59A1A990615A36 /* Pods */,
+				8CF555E5BAC2C06253EA00AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50147AB924D158720056DA65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50147AB824D158720056DA65 /* StickyHeader-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50147ABA24D158720056DA65 /* StickyHeader-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				50147AD124D158950056DA65 /* ObjectC */,
+				50147AD924D158C90056DA65 /* Scene */,
+				5038678024F508F8000C0D9F /* Util */,
+				50147B0C24D15DEA0056DA65 /* Resource */,
+				50147ABB24D158720056DA65 /* AppDelegate.swift */,
+				50147ABD24D158720056DA65 /* SceneDelegate.swift */,
+				50147ABF24D158720056DA65 /* ViewController.swift */,
+				50147AC124D158720056DA65 /* Main.storyboard */,
+				50147AC424D158740056DA65 /* Assets.xcassets */,
+				50147AC624D158740056DA65 /* LaunchScreen.storyboard */,
+				50147AC924D158740056DA65 /* Info.plist */,
+			);
+			path = "StickyHeader-iOS";
+			sourceTree = "<group>";
+		};
+		50147AD124D158950056DA65 /* ObjectC */ = {
+			isa = PBXGroup;
+			children = (
+				50147AD224D158C30056DA65 /* CSStickyHeaderFlowLayout */,
+				50147AF224D159D60056DA65 /* ObjectC.h */,
+				50147AF324D159D60056DA65 /* ObjectC.m */,
+				50147ACF24D1588D0056DA65 /* StickyHeader-iOS-Bridging-Header.h */,
+			);
+			path = ObjectC;
+			sourceTree = "<group>";
+		};
+		50147AD224D158C30056DA65 /* CSStickyHeaderFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				50147AD324D158C30056DA65 /* CSStickyHeaderFlowLayout.h */,
+				50147AD624D158C30056DA65 /* CSStickyHeaderFlowLayout.m */,
+				50147AD524D158C30056DA65 /* CSStickyHeaderFlowLayoutAttributes.h */,
+				50147AD424D158C30056DA65 /* CSStickyHeaderFlowLayoutAttributes.m */,
+			);
+			path = CSStickyHeaderFlowLayout;
+			sourceTree = "<group>";
+		};
+		50147AD924D158C90056DA65 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				50147ADA24D158C90056DA65 /* Common */,
+				5038677F24F50582000C0D9F /* Overlay */,
+				50147ADD24D158C90056DA65 /* CSSticky */,
+				50147B1024D162C70056DA65 /* Parallax */,
+				50147B1B24D188450056DA65 /* BottomSheet */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		50147ADA24D158C90056DA65 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				50147ADB24D158C90056DA65 /* Custom */,
+				50147B1924D187B60056DA65 /* BaseViewController.swift */,
+				50147B2024D25C560056DA65 /* ScrollableStackViewController.swift */,
+				50147B1724D187860056DA65 /* ScrollableBottomSheetViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		50147ADB24D158C90056DA65 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				50147ADC24D158C90056DA65 /* UI */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		50147ADC24D158C90056DA65 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				50147AF624D15C3F0056DA65 /* ParallaxHeader */,
+				50147AFB24D15C3F0056DA65 /* SwiftScrollViews */,
+				50147AF524D15C3F0056DA65 /* ScrollableStackView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		50147ADD24D158C90056DA65 /* CSSticky */ = {
+			isa = PBXGroup;
+			children = (
+				50147ADF24D158C90056DA65 /* Cell */,
+				50147ADE24D158C90056DA65 /* CSStickyHeaderController.swift */,
+				50147AE624D158C90056DA65 /* CSStickyHeaderController.xib */,
+			);
+			path = CSSticky;
+			sourceTree = "<group>";
+		};
+		50147ADF24D158C90056DA65 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				50147AE024D158C90056DA65 /* CollectionParallaxHeader.swift */,
+				50147AE224D158C90056DA65 /* CollectionParallaxHeader.xib */,
+				50147AE124D158C90056DA65 /* CollectionViewSectionHeader.swift */,
+				50147AE324D158C90056DA65 /* CollectionViewSectionHeader.xib */,
+				50147AE424D158C90056DA65 /* CollectionViewCell.swift */,
+				50147AE524D158C90056DA65 /* CollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		50147AF624D15C3F0056DA65 /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				50147AF724D15C3F0056DA65 /* ParallaxHeaderMode.swift */,
+				50147AF824D15C3F0056DA65 /* ParallaxHeader.h */,
+				50147AF924D15C3F0056DA65 /* UIScrollView+ParallaxHeader.swift */,
+				50147AFA24D15C3F0056DA65 /* ParallaxHeader.swift */,
+			);
+			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		50147AFB24D15C3F0056DA65 /* SwiftScrollViews */ = {
+			isa = PBXGroup;
+			children = (
+				50147AFC24D15C3F0056DA65 /* SwiftScrollViewsExtensions.swift */,
+				50147AFD24D15C3F0056DA65 /* SwiftTableView.swift */,
+				50147AFE24D15C3F0056DA65 /* SwiftScrollViewDelegate.swift */,
+				50147AFF24D15C3F0056DA65 /* SwiftScrollView.swift */,
+				50147B0024D15C3F0056DA65 /* SwiftCollectionView.swift */,
+				50147B0124D15C3F0056DA65 /* SwiftScrollViews.swift */,
+			);
+			path = SwiftScrollViews;
+			sourceTree = "<group>";
+		};
+		50147B0C24D15DEA0056DA65 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				50147B0D24D15DEA0056DA65 /* images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		50147B0D24D15DEA0056DA65 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				50147B0E24D15DEA0056DA65 /* success-baby.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		50147B1024D162C70056DA65 /* Parallax */ = {
+			isa = PBXGroup;
+			children = (
+				50147B1124D1630E0056DA65 /* ParallaxHeaderController.swift */,
+				50147B1224D1630E0056DA65 /* ParallaxHeaderController.xib */,
+			);
+			path = Parallax;
+			sourceTree = "<group>";
+		};
+		50147B1B24D188450056DA65 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				50147B1C24D188590056DA65 /* BottomSheetController.swift */,
+				50147B1D24D188590056DA65 /* BottomSheetController.xib */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		5038677F24F50582000C0D9F /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				5038678624F51073000C0D9F /* OverlayViewController.swift */,
+				5038678724F51073000C0D9F /* OverlayViewController.xib */,
+				5038678A24F511EF000C0D9F /* ContentViewController.swift */,
+				5038678B24F511EF000C0D9F /* ContentViewController.xib */,
+				5038678E24F51201000C0D9F /* BottomViewController.swift */,
+				5038678F24F51201000C0D9F /* BottomViewController.xib */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		5038678024F508F8000C0D9F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5038678124F508F8000C0D9F /* Extensions */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		5038678124F508F8000C0D9F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5038678224F508F8000C0D9F /* UIView+Constraints.swift */,
+				5038678324F508F8000C0D9F /* UIViewController+Children.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6D6BAACBCF59A1A990615A36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECB108342E570F9FBB7AE29B /* Pods-StickyHeader-iOS.debug.xcconfig */,
+				F6CE8080C846298CBD8FA92C /* Pods-StickyHeader-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8CF555E5BAC2C06253EA00AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D832F601C832637509C82A97 /* Pods_StickyHeader_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50147AB724D158720056DA65 /* StickyHeader-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50147ACC24D158740056DA65 /* Build configuration list for PBXNativeTarget "StickyHeader-iOS" */;
+			buildPhases = (
+				92336F2A4DBE544BF4EBFA82 /* [CP] Check Pods Manifest.lock */,
+				50147AB424D158720056DA65 /* Sources */,
+				50147AB524D158720056DA65 /* Frameworks */,
+				50147AB624D158720056DA65 /* Resources */,
+				03BAF3B4468C12B59CC986D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StickyHeader-iOS";
+			productName = "StickyHeader-iOS";
+			productReference = 50147AB824D158720056DA65 /* StickyHeader-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50147AB024D158720056DA65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Chang-Hoon Han";
+				TargetAttributes = {
+					50147AB724D158720056DA65 = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+				};
+			};
+			buildConfigurationList = 50147AB324D158720056DA65 /* Build configuration list for PBXProject "StickyHeader-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50147AAF24D158720056DA65;
+			productRefGroup = 50147AB924D158720056DA65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50147AB724D158720056DA65 /* StickyHeader-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50147AB624D158720056DA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50147AC824D158740056DA65 /* LaunchScreen.storyboard in Resources */,
+				50147AC524D158740056DA65 /* Assets.xcassets in Resources */,
+				5038678924F51073000C0D9F /* OverlayViewController.xib in Resources */,
+				50147AED24D158CA0056DA65 /* CollectionViewCell.xib in Resources */,
+				50147B1424D1630E0056DA65 /* ParallaxHeaderController.xib in Resources */,
+				50147AC324D158720056DA65 /* Main.storyboard in Resources */,
+				50147AEE24D158CA0056DA65 /* CSStickyHeaderController.xib in Resources */,
+				50147B1F24D188590056DA65 /* BottomSheetController.xib in Resources */,
+				5038678D24F511EF000C0D9F /* ContentViewController.xib in Resources */,
+				50147AEB24D158CA0056DA65 /* CollectionViewSectionHeader.xib in Resources */,
+				50147AEA24D158CA0056DA65 /* CollectionParallaxHeader.xib in Resources */,
+				50147B0F24D15DEA0056DA65 /* success-baby.png in Resources */,
+				5038679124F51201000C0D9F /* BottomViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03BAF3B4468C12B59CC986D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StickyHeader-iOS/Pods-StickyHeader-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StickyHeader-iOS/Pods-StickyHeader-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StickyHeader-iOS/Pods-StickyHeader-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92336F2A4DBE544BF4EBFA82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StickyHeader-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50147AB424D158720056DA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50147B2224D25C560056DA65 /* ScrollableStackViewController.swift in Sources */,
+				50147AD824D158C30056DA65 /* CSStickyHeaderFlowLayout.m in Sources */,
+				50147B0524D15C3F0056DA65 /* ParallaxHeader.swift in Sources */,
+				5038678424F508F8000C0D9F /* UIView+Constraints.swift in Sources */,
+				50147B0424D15C3F0056DA65 /* UIScrollView+ParallaxHeader.swift in Sources */,
+				50147AC024D158720056DA65 /* ViewController.swift in Sources */,
+				50147B1324D1630E0056DA65 /* ParallaxHeaderController.swift in Sources */,
+				50147B1A24D187B60056DA65 /* BaseViewController.swift in Sources */,
+				50147B1E24D188590056DA65 /* BottomSheetController.swift in Sources */,
+				50147B0324D15C3F0056DA65 /* ParallaxHeaderMode.swift in Sources */,
+				5038678524F508F8000C0D9F /* UIViewController+Children.swift in Sources */,
+				50147B0924D15C3F0056DA65 /* SwiftScrollView.swift in Sources */,
+				50147AEC24D158CA0056DA65 /* CollectionViewCell.swift in Sources */,
+				50147B0B24D15C3F0056DA65 /* SwiftScrollViews.swift in Sources */,
+				50147ABC24D158720056DA65 /* AppDelegate.swift in Sources */,
+				50147AE924D158CA0056DA65 /* CollectionViewSectionHeader.swift in Sources */,
+				50147B0A24D15C3F0056DA65 /* SwiftCollectionView.swift in Sources */,
+				5038679024F51201000C0D9F /* BottomViewController.swift in Sources */,
+				50147B0624D15C3F0056DA65 /* SwiftScrollViewsExtensions.swift in Sources */,
+				50147AD724D158C30056DA65 /* CSStickyHeaderFlowLayoutAttributes.m in Sources */,
+				50147AE824D158CA0056DA65 /* CollectionParallaxHeader.swift in Sources */,
+				50147ABE24D158720056DA65 /* SceneDelegate.swift in Sources */,
+				50147AF424D159D60056DA65 /* ObjectC.m in Sources */,
+				50147B0224D15C3F0056DA65 /* ScrollableStackView.swift in Sources */,
+				5038678824F51073000C0D9F /* OverlayViewController.swift in Sources */,
+				50147B1824D187860056DA65 /* ScrollableBottomSheetViewController.swift in Sources */,
+				50147B0824D15C3F0056DA65 /* SwiftScrollViewDelegate.swift in Sources */,
+				5038678C24F511EF000C0D9F /* ContentViewController.swift in Sources */,
+				50147AE724D158CA0056DA65 /* CSStickyHeaderController.swift in Sources */,
+				50147B0724D15C3F0056DA65 /* SwiftTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50147AC124D158720056DA65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50147AC224D158720056DA65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50147AC624D158740056DA65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50147AC724D158740056DA65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50147ACA24D158740056DA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50147ACB24D158740056DA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50147ACD24D158740056DA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB108342E570F9FBB7AE29B /* Pods-StickyHeader-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z23BYHYQ5D;
+				INFOPLIST_FILE = "StickyHeader-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acontech.sticky.header;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StickyHeader-iOS/ObjectC/StickyHeader-iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50147ACE24D158740056DA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CE8080C846298CBD8FA92C /* Pods-StickyHeader-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z23BYHYQ5D;
+				INFOPLIST_FILE = "StickyHeader-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acontech.sticky.header;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StickyHeader-iOS/ObjectC/StickyHeader-iOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50147AB324D158720056DA65 /* Build configuration list for PBXProject "StickyHeader-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50147ACA24D158740056DA65 /* Debug */,
+				50147ACB24D158740056DA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50147ACC24D158740056DA65 /* Build configuration list for PBXNativeTarget "StickyHeader-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50147ACD24D158740056DA65 /* Debug */,
+				50147ACE24D158740056DA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50147AB024D158720056DA65 /* Project object */;
+}
